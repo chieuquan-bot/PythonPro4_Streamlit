@@ -1,7 +1,7 @@
 import streamlit as st
 import time
-
-st.title('Web Cute :grinning:')
+st.set_page_config(page_title="Testing", page_icon=':innocent:', layout="wide")
+st.title('Xin chào :grinning:')
 name = st.text_input('Bạn thật xấu xa, hãy nhập tên:')
 if st.button('submit name'):
     st.write(f'Hello {name}')
