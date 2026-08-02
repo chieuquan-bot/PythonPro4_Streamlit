@@ -11,9 +11,6 @@ st.write(f'Ngày sinh của bạn là {dob} phại ko')
 if st.button('balloon'):
     st.balloons()
 
-if st.button('dep gai'):
-    st.image('IMG_0185.JPG')
-
 my_bar = st.progress(0)
 for i in range(100):
     time.sleep(0.01)
